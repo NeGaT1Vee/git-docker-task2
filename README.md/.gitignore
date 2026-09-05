@@ -4,3 +4,5 @@ __pycache__/
 .env
 *.log
 data/raw/
+
+## the .gitignore file is used to specify some file to not be commited to github repository
