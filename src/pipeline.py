@@ -11,6 +11,12 @@ with open(INPUT_PATH, newline="") as f:
     for row in reader:
         quantity = int(row["quantity"])
         price = float(row["price"])
+
+        if quantity <= 0:
+            raise ValueError(f"Invalid quantity for {row['product']}: {quantity}")
+        if price < 0:
+            raise ValueError(f"Invalid price for {row['product']}: {price}")
+
         total = quantity * price
 
         total_revenue += total
