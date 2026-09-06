@@ -21,20 +21,20 @@ add code on top of it depending on our desire
 
 list of commands :
 
-git init 
-git remote add origin https://github.com/NeGaT1Vee/git-docker-task2.git
-git branch -M main
-git push -u origin main
-git add - 
-git commit -m "text"
-git log --oneline
-git switch -c feature/add-validation
-git merge feature/add-validation , do after switching to main branch
-docker build -t sales-pipeline .
-docker images 
-docker run --name sales-job sales-pipeline
-docker ps -a 
-docker run --rm -v ${PWD}\data:/app/data sales-pipeline
-docker rm sales-job
-docker rmi sales-pipeline
+git init //
+//git remote add origin https://github.com/NeGaT1Vee/git-docker-task2.git
+//git branch -M main
+//git push -u origin main
+//git add - 
+//git commit -m "text"
+//git log --oneline
+//git switch -c feature/add-validation
+//git merge feature/add-validation , do after switching to main branch
+//docker build -t sales-pipeline .
+//docker images 
+//docker run --name sales-job sales-pipeline
+//docker ps -a 
+//docker run --rm -v ${PWD}\data:/app/data sales-pipeline
+//docker rm sales-job
+//docker rmi sales-pipeline
  
