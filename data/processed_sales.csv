@@ -1,5 +1,5 @@
 product,quantity,price,total
-Laptop,2,900,1800.0
-Mouse,10,25,250.0
-Keyboard,5,50,250.0
-Monitor,3,300,900.0
+Laptop,2,900.0,1800.0
+Mouse,10,25.0,250.0
+Keyboard,5,50.0,250.0
+Monitor,3,300.0,900.0
